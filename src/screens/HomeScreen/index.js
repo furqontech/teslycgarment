@@ -99,19 +99,19 @@ class HomeScreenForm extends React.Component {
       return(
         <View>
 
-        <View style={{width: "100%", height: 120, flexDirection: "row", backgroundColor: "black"}}>
+        <View style={{width: "100%", height: 80, flexDirection: "row", backgroundColor: "black"}}>
           
-          <View style={{width: "70%", backgroundColor: "black"}}>
+          <View style={{width: "80%", backgroundColor: "black"}}>
             <TextInput
               placeholder="apa yang anda mau"
               onChangeText={(text)=>{this.handlesearch(text)}}
               style={{marginLeft: 10, marginTop: 10, borderColor: "grey", width: "100%", height: 45, borderWeight: 1, backgroundColor: "white"}}
             />
           </View>
-          <View style={{width: "30%", backgroundColor: "black"}}>
+          <View style={{width: "20%", backgroundColor: "black"}}>
                 <Image
                   source={barcodeweb}
-                  style={{ width: 100, height: 100, alignSelf: "center", marginTop: 10 }}
+                  style={{ width: 45, height: 45, alignSelf: "center", marginTop: 10 }}
                 />
           </View>
         </View>
