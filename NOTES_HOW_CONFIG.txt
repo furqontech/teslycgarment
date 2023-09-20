@@ -1,0 +1,5 @@
+- "npm install" on this folder
+- open Android Studio
+- open project on the Android Studio
+- select a "teslycgarment/android"
+- and happy try and run my code
